@@ -14,8 +14,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    border: 5px solid red;
+    flex-wrap: wrap;   
     &_card {
         width: 585px;
         max-width: 585px;
@@ -27,8 +26,7 @@
         position: relative;
         display: flex;             
         flex-wrap: wrap;
-        }
-   
+       }   
 }
 header {    
     width: 100%;
