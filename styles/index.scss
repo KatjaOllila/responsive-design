@@ -22,6 +22,7 @@
         min-height: 600px;
         margin: auto;
         padding-left: 30px;
+        padding-top: 30px;
         background-color: #000000;
         position: relative;
         display: flex;             
@@ -31,50 +32,49 @@
    
 }
 header {    
-    max-width: 100%;
+    width: 100%;
     height: 40px;
     background-color: #000000;
     margin: 5px;
     position: relative;
     display: flex;    
-    align-content: flex-end; 
+    align-content: flex-end;
+    flex-direction: row; 
     justify-content: space-between;
     border: 5px solid pink;
 }
 .logo_container {
-    width: 50%;
+    width: 40%;
     height: 40px;
-    background-color: #000000;
-    margin: 5px;
+    background-color: #000000;    
     position: relative;
     display: flex;
     align-self: center;    
 }
 nav {     
-    max-width: 500px;
+    width: 60%;
     height: 20px;
     background-color: #000000;
     margin: 5px;
-    display: flex;
-    align-content: flex-end;   
-    
+    display: flex;    
+    flex-direction: row;
+    border: 1px solid red;     
 }
 li {   
     display: inline;
     font-family: 'Source Sans 3', sans-serif;
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 5px;       
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 16px;    
     &:hover {
         color: green;
     }
-
 }
 .logo {    
     max-width: 70px;
     height: 30px;
-    margin: 10px;
+    margin-bottom: 5px;
     display: flex;
     align-self: center;
     border: 1px solid red;
@@ -86,13 +86,13 @@ li {
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid red;
     &_title {
         max-width: 366px;
-        min-height: 102px;
+        min-height: 80px;
         margin: 5px;
-        display: flex;
-        align-items: center;
+        display: flex;        
         position: relative;
         border: 1px solid red;
     }
@@ -103,7 +103,6 @@ li {
         display: flex;        
         position: relative;
         border: 1px solid red;
-
     }
 }
 .svg {
