@@ -68,8 +68,32 @@ li {
     align-self: center;
     border: 1px solid red;
 }
-.title-box {
-    
+.box {
+    width: 416px;
+    height: 244px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid red;
+    &_title {
+        width: 366px;
+        height: 102px;
+        margin: 5px;
+        display: flex;
+        position: relative;
+        border: 1px solid red;
+    }
+    &_text {
+        width: 410px;
+        height: 98px;
+        margin: 5px;
+        display: flex;
+        position: relative;
+        border: 1px solid red;
+
+    }
+
 }
 .image {
     max-width: 585px;
