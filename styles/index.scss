@@ -44,9 +44,17 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-
-ul.topnav li {float: left;} 
+ul.topnav li {
+  float: left;} 
  
+ul.topnav li a:hover:not(.active) {
+  background-color: #0a612b;}
+
+
+
+ul.topnav li.right {
+  float: right;}
+
   
  
   
