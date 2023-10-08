@@ -50,22 +50,14 @@ ul.topnav li {
 ul.topnav li a:hover:not(.active) {
   background-color: #0a612b;}
 
-
-
 ul.topnav li.right {
-  float: right;}
-
-  
- 
+  float: right;} 
   
   
   @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
-  }
-  
-  
-    
+  } 
  
 
 .box {
@@ -99,6 +91,14 @@ ul.topnav li.right {
     display: flex;
     align-self: center;
 }
+.logo {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  top: 10px;  
+}
+
 p.text {
     font-family: 'Source Sans 3', sans-serif;
     color: #FFFFFF;
@@ -110,4 +110,10 @@ h1 {
     font-size: 74px;
     letter-spacing: -2px;
     color: #FFFFFF;
+}
+h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #FFFFFF;  
+  letter-spacing: 1px;
+  
 }
